@@ -1,0 +1,14 @@
+package day2;
+
+public class method_overriding {
+
+	public method_overriding() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

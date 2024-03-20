@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710796702 source:e:\pata nhi\calc\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,40 @@
+package day3;
+
+class parent11{
+	void display() {
+		System.out.println("this is the parent class method");
+	}
+}
+
+class Child1 extends parent11{
+	void display() {
+		System.out.println("this is the child1 class method");
+	}
+}
+class Child2 extends parent11{
+	void display() {
+		System.out.println("this is the child2 class method");
+	}
+}
+public class dd {
+
+	public dd() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		parent11 p=new parent11();
+		Child1 obj1=new Child1();
+		Child2 obj2=new Child2();
+		obj1.display();
+		obj2.display();
+		p=obj1;
+		p.display();
+		p=obj2;
+		p.display();
+		
+
+	}
+
+}

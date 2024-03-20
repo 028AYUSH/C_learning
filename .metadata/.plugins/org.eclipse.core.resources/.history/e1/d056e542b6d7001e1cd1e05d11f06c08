@@ -1,0 +1,9 @@
+package das;
+import das;
+class control{
+	public static void main(String a[]) {
+		abc ob=new abc();
+		ob.display();
+		
+	}
+}

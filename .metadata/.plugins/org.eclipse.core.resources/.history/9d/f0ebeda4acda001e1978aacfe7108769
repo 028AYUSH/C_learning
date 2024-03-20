@@ -1,0 +1,14 @@
+package day_5;
+import java.applet.*;
+import java.awt.*;
+
+
+@SuppressWarnings("removal")
+public class applet extends Applet{
+	public void paint(Graphics g) {
+		g.drawString("ayush abhishek", 30, 30);
+		
+	}
+	
+
+}

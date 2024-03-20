@@ -1,0 +1,9 @@
+package day2;
+
+public class Variable_OR {
+
+	public Variable_OR() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

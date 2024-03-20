@@ -1,0 +1,9 @@
+package day2;
+
+public class constructoroverloading {
+
+	public constructoroverloading() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

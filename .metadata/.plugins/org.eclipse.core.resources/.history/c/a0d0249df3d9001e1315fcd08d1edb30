@@ -1,0 +1,47 @@
+package day_5;
+class Thread1 implements Runnable{
+	public void run() {
+		for(int i=0;i<10;i++) {
+			System.out.println("from thread1 "+i);
+		}
+	}
+}
+class Thread2 implements Runnable{
+	public void run() {
+		for(int i=0;i<10;i++) {
+			System.out.println("from thread2 "+i);
+		}
+	}
+}
+class Thread3 implements Runnable{
+	public void run() {
+		for(int i=0;i<10;i++) {
+			System.out.println("from thread3 "+i);
+		}
+	}
+}
+
+public class Run_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread1 ob=new Thread1();
+		
+		
+		Thread2 ob1=new Thread2();
+		
+		
+		Thread3 ob2=new Thread3();
+		Thread t2=new Thread(ob2);
+		Thread t=new Thread(ob);
+		Thread t1=new Thread(ob1);
+		t.start();
+		t1.start();
+		t2.start();
+		for(int i=0;i<10;i++) {
+			System.out.println("Thread main i="+i);
+
+	}
+
+	}
+	}

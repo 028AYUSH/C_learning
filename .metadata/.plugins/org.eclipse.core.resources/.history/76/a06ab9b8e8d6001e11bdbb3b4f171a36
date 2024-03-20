@@ -1,0 +1,9 @@
+package day2;
+
+public class multilevel_inheritance {
+
+	public multilevel_inheritance() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

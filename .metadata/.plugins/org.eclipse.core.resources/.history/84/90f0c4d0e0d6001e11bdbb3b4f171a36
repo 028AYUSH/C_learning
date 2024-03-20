@@ -1,0 +1,17 @@
+package day2;
+
+public class command_l_a {
+	
+	public static void main(String a[]) {
+		
+		for(int i=0;i<a;i++) {
+			System.out.println(a[i]);
+		}
+		
+	}
+
+	public command_l_a() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

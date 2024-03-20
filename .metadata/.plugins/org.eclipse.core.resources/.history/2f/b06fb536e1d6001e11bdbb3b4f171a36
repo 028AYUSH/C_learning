@@ -1,0 +1,9 @@
+package day2;
+
+public class Command_l_A {
+
+	public Command_l_A() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

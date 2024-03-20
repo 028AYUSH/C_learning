@@ -1,0 +1,21 @@
+package day_5;
+
+
+import java.awt.*;
+import java.applet.Applet;
+
+
+//@SuppressWarnings("removal")
+public class applet extends Applet{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public void paint(Graphics g) {
+		g.drawString("ayush abhishek", 30, 30);
+		
+	}
+	
+
+}

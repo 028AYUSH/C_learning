@@ -1,0 +1,18 @@
+package day2;
+
+class input{
+	int a = 10;
+	int b= 20;
+}
+
+public class question2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		input ob=new input();
+		System.out.println(ob.a);
+		System.out.println(ob.b);
+
+	}
+
+}

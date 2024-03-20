@@ -1,0 +1,8 @@
+package day_5;
+
+public class SBinsert {
+	StringBuffer s1=new StringBuffer("strings are immutable");
+	s1.append("all the time");
+	System.out.println(s1);}
+
+}

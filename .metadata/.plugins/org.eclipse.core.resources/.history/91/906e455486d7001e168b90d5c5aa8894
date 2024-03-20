@@ -1,0 +1,27 @@
+package day2;
+
+class g{
+	int i=10;
+}
+
+class f extends g{
+	void disp() {
+		System.out.println(i);
+	}
+}
+public class this_ay {
+
+	public this_ay() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		f ob=new f();
+		ob.disp();
+		
+		
+
+	}
+
+}

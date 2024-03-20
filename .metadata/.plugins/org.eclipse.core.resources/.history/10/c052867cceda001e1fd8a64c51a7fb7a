@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+
+module day_5 {
+	requires java.desktop;
+	requires java.AppletViewer;
+	
+}

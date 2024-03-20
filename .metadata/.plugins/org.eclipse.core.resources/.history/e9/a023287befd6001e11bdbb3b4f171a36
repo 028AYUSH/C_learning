@@ -1,0 +1,35 @@
+package day2;
+class A{
+	int i=100;
+	int j=500;
+}
+class B extends  A{
+	int c=i+j;
+	void disp() {
+		System.out.println(c);
+	}
+}
+class C extends A{
+	int c=i*j;
+	void disp() {
+		System.out.println(c);
+	}
+	
+}
+
+public class multiple_inheritance {
+
+	public multiple_inheritance() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		C obj=new C();
+		B obj1=new B();
+		obj.disp();
+		obj1.disp();
+
+	}
+
+}
